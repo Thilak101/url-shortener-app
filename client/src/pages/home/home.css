@@ -1,0 +1,49 @@
+.home {
+    background-color: gray;
+    height: 100vh;
+    
+}
+
+.home__container {
+    background-color: gainsboro;
+
+}
+
+.home__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 80vh;
+    flex-direction: column;
+}
+
+.home__section input {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    margin: 10px 5px 0 0;
+}
+
+.home__section button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.home__section button:hover {
+    background-color: gray;
+    color: white;
+}
+
+.home__section p {
+    margin: 10px 0;
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+.home__section h1 {
+    color: darkslategray;
+}

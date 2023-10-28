@@ -1,0 +1,30 @@
+.verify {
+  background-color: whitesmoke;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+}
+
+.verify button {
+  margin-left: 10px;
+  padding: 10px 7px;
+  background-color: gray;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.verify a{
+    color: white;
+    text-decoration: none;
+}
+
+.verify button:hover {
+  background-color: lightgray;
+
+}
+
+.verify a:hover {
+    color: gray;
+}
